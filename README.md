@@ -25,9 +25,7 @@ Testing the C Program for the desired output.
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
 
-
-```c
-// C Program that illustrate communication between two process using unnamed pipes
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h> 
@@ -101,22 +99,13 @@ void client(int wfd, int rfd) {
     // Print file contents
     write(1, buff, n);
 }
-
-
 ```
 
 
 ## OUTPUT
 
-![pipe1](./img/ex03.png)
+![pipe](./img/ex3-pipe.png)
 
-## C Program that illustrate communication between two process using named pipes using Linux API system calls
-
-
-
-
-
-## OUTPUT
 
 
 # RESULT:
